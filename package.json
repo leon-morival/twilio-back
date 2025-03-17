@@ -1,0 +1,20 @@
+{
+  "name": "hackathon-twillio",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "twilio": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
